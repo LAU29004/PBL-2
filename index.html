@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+  <title>WEB OF FLAWS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Jersey 15', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+    }
+
+    header ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    header ul li {
+      display: inline;
+    }
+
+    header ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    header ul li a:hover {
+      color: #ff6600;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button-group button {
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button-group button:hover {
+      background-color: #e65c00;
+    }
+
+    .button-group button a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+      text-align: center;
+      flex: 1;
+    }
+
+    .container {
+      max-width: 800px;
+    }
+
+    .container .text-box h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .container .text-box p {
+      font-size: 1em;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1em;
+    }
+
+    footer a {
+      color: #ff6600;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>WEB OF FLAWS</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="button-group">
+      <button><a href="login.html">Login</a></button>
+      <button><a href="sign_up.html">Sign Up</a></button>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="text-box">
+        <h2>Are you ready to dive<br>into the Web of Flaws?</h2>
+        <p>Discover a safe and controlled environment designed to help you learn, test, and master web security
+          concepts. "Web of Flaws" offers a hands-on approach to understanding how common vulnerabilities work and how
+          they can be exploited. This platform is perfect for cybersecurity enthusiasts, developers, and learners eager
+          to enhance their ethical hacking skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Web of Flaws. All Rights Reserved.</p>
+    <p>Contact us at <a href="mailto:support@example.com">support@example.com</a></p>
+  </footer>
+</body>
+
+</html>
